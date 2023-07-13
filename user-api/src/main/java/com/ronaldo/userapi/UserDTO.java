@@ -16,7 +16,7 @@ public class UserDTO {
 	private String nome;
 	private String cpf;
 	private String endereco;
-	private String emaill;
+	private String email;
 	private String telefone;
 	private LocalDateTime dataCadastro;
 	
@@ -33,8 +33,8 @@ public class UserDTO {
 		return endereco;
 	}
 	
-	public String getEmaill() {
-		return emaill;
+	public String getEmail() {
+		return email;
 	}
 	
 	public String getTelefone() {
@@ -59,8 +59,8 @@ public class UserDTO {
 		this.cpf = cpf;
 	}
 	
-	public void setEmaill(String emaill) {
-		this.emaill = emaill;
+	public void setEmail(String emaill) {
+		this.email = emaill;
 	}
 
 	public void setTelefone(String telefone) {
