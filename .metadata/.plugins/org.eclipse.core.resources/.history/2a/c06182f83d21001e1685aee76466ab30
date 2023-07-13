@@ -1,0 +1,5 @@
+package com.ronaldo.backend.controller;
+
+public class UserController {
+
+}
