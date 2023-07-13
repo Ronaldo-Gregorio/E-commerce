@@ -1792,3 +1792,212 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:02:36.321
 !MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:10:31.318
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:11:45.367
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:11:48.521
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:12:02.801
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:13:44.348
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:14:11.500
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:14:22.393
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:14:27.881
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:14:38.646
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:15:27.865
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:15:36.695
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:16:13.915
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:16:20.931
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:21:22.577
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:23:06.523
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.eclipse.ui 4 4 2023-07-13 14:24:30.150
+!MESSAGE Conflicting handlers for org.eclipse.jdt.junit.junitShortcut.run: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@74aecec} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@61c98747} in: PageSite
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@74aecec,  for 'org.eclipse.jdt.junit.junitShortcut.run',  in WorkbenchContext, active=true, sourcePriority=0, participating=true]} vs {[org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@61c98747,  for 'org.eclipse.jdt.junit.junitShortcut.run',  in WorkbenchContext, active=true, sourcePriority=0, participating=true]} in: PageSite
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:145)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:265)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:276)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:276)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:276)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:276)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:230)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:103)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.setEnabled(HandlerServiceHandler.java:75)
+	at org.eclipse.core.commands.Command.setEnabled(Command.java:856)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.canExecute(HandlerServiceImpl.java:179)
+	at org.eclipse.ui.internal.quickaccess.providers.CommandProvider.retrieveCommand(CommandProvider.java:102)
+	at org.eclipse.ui.internal.quickaccess.providers.CommandProvider.getElements(CommandProvider.java:85)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessProvider.getElementsSorted(QuickAccessProvider.java:83)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents$3.runInUIThread(QuickAccessContents.java:397)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:25:21.599
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:30:04.350
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:30:10.316
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:30:18.717
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:31:02.267
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:31:40.441
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:31:43.682
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:31:47.823
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:31:59.102
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:32:04.534
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:33:07.528
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:33:14.579
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:33:17.955
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:33:46.895
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:33:53.419
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:35:04.194
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:35:27.358
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:35:36.602
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:35:46.813
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:35:59.413
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:36:38.978
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:36:49.576
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:36:53.758
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:37:02.101
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:37:19.374
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:37:27.745
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:38:06.530
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:38:21.495
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:38:44.266
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:38:50.971
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:40:36.707
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:40:42.013
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:41:50.606
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:41:55.899
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:42:14.554
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:42:51.870
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:43:07.846
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:44:53.456
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-13 14:45:07.865
+!MESSAGE Classpath changed for project: user-api

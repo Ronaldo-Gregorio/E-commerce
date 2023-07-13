@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.*;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -61,6 +62,11 @@ public class UserController {
 	@GetMapping("/{cpf}")
 	public UserDTO getUsersFiltro(@PathVariable String cpf) {
 				return usuarios.stream().filter(UserDTO -> UserDTO.getCpf().equals(cpf)).findFirst().orElseThrow(() -> new RuntimeException("Usuário não encontrado!"));
+	}
+	
+	@DeleteMapping("/{cpf}")
+	public boolean remove(@PathVariable String cpf) {
+				return usuarios.removeIf(userDTO -> userDTO.getCpf().equals(cpf));
 	}
 	
 	@PostMapping
