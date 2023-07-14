@@ -1,0 +1,78 @@
+package com.ronaldo.userapi.response;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+import javax.validation.constraints.NotBlank;
+
+
+@NoArgsConstructor
+@AllArgsConstructor
+public class UserDTO {
+	
+	@NotBlank(message = "Nome é obrigatorio!")
+	private String nome;
+	@NotBlank(message = "CPF é obrigatorio!")
+	private String cpf;
+	private String endereco;
+	@NotBlank(message = "E-mail é obrigatorio!")
+	private String email;
+	private String telefone;
+	private LocalDateTime dataCadastro;
+	
+	// getters
+	public String getNome() {
+		return nome;
+	}
+	
+	public String getCpf() {
+		return cpf;
+	}
+	
+	public String getEndereco() {
+		return endereco;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	
+	public String getTelefone() {
+		return telefone;
+	}
+	
+	public LocalDateTime getDataCadastro() {
+		return dataCadastro;
+	}
+	
+	//setters
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	public void setEmail(String emaill) {
+		this.email = emaill;
+	}
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	
+	
+	public void setDataCadastro(LocalDateTime dataCadastro) {
+		this.dataCadastro = dataCadastro;
+	}
+	
+	
+	
+}
