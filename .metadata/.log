@@ -4151,3 +4151,201 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 12:57:09.288
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 12:57:33.179
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 12:57:35.273
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 12:58:01.342
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 12:58:14.757
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 12:59:20.059
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:00:20.084
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:00:39.545
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:00:43.689
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:00:55.546
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:00:59.494
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:01:04.865
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:01:24.088
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:01:30.463
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:01:40.104
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:01:49.795
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:03:20.982
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:03:24.041
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:03:36.748
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:03:44.175
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:03:47.309
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:04:49.349
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:05:46.659
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:05:56.528
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:06:04.671
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:06:12.247
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:06:25.240
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:08:34.592
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:08:43.446
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:09:10.426
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:09:19.054
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:09:35.729
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:09:44.520
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:09:46.561
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:09:50.243
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-14 13:09:51.458
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:09:52.331
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:09:54.418
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:12:02.941
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:13:18.173
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:16:11.712
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:16:21.399
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:16:25.516
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:16:48.908
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:16:54.243
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:17:15.097
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:19:50.096
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:19:57.676
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:20:39.697
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:21:52.390
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:21:58.776
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:22:01.861
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:22:13.306
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:23:00.446
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:23:33.430
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:24:07.832
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:24:14.599
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:24:19.838
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:24:34.006
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:24:44.433
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:26:05.225
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:27:37.077
+!MESSAGE Classpath changed for project: user-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 13:27:43.516
+!MESSAGE Classpath changed for project: user-api

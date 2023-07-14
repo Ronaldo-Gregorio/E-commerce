@@ -1,0 +1,21 @@
+package com.ronaldo.userapi.model;
+
+
+import java.time.LocalDateTime;
+
+import com.ronaldo.userapi.response.*;
+import com.ronaldo.userapi.response;
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+public class User {
+	
+}

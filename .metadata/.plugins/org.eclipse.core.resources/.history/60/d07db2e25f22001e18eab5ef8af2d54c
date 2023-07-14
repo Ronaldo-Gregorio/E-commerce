@@ -1,0 +1,17 @@
+package com.ronaldo.backend.model;
+
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import jakarta.persistence.Entity;
+
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+public class User {
+	
+}
