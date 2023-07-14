@@ -1,6 +1,9 @@
 package com.ronaldo.userapi.controller;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+
+import javax.validation.Valid;
+
 import java.util.*;
 
 import org.springframework.http.HttpStatus;
@@ -71,7 +74,7 @@ public class UserController {
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
-	public UserDTO inserir(@RequestBody UserDTO userDTO) {
+	public UserDTO inserir(@RequestBody @Valid UserDTO userDTO) {
 		userDTO.setDataCadastro(LocalDateTime.now());
 		usuarios.add(userDTO);
 		return userDTO;
