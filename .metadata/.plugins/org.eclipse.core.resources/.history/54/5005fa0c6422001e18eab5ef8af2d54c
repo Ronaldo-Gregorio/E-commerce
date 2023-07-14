@@ -1,0 +1,7 @@
+package com.ronaldo.userapi.repository;
+
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+
+}

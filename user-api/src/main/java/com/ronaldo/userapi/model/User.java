@@ -2,8 +2,8 @@ package com.ronaldo.userapi.model;
 
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Getter;
 import lombok.Setter;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -30,14 +30,14 @@ public class User {
 	private String telefone;
 	private LocalDateTime dataCadastro;
 	
-	public static UserDTO convert(User user) {
-		UserDTO userDTO = new UserDTO();
-		userDTO.setNome(user.getNome());
-		userDTO.setCpf(user.getCpf());
-		userDTO.setEndereco(user.getEndereco());
-		userDTO.setEmail(user.getEmail());
-		userDTO.setTelefone(user.getTelefone());
-		userDTO.setDataCadastro(user.getDataCadastro());
-		return userDTO;
+	public static User convert(UserDTO userDTO) {
+		User user = new User();
+		user.setNome(userDTO.getNome());
+		user.setCpf(userDTO.getCpf());
+		user.setEndereco(userDTO.getEndereco());
+		user.setEmail(userDTO.getEmail());
+		user.setTelefone(userDTO.getTelefone());
+		user.setDataCadastro(userDTO.getDataCadastro());
+		return user;
 	}
 }

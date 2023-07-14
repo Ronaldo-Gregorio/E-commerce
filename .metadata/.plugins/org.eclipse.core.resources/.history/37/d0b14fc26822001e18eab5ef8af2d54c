@@ -1,0 +1,15 @@
+package com.ronaldo.userapi.repository;
+
+//import org.springframework.stereotype.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.ronaldo.userapi.model.User;
+
+import java.util.List;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+	
+	User findByCpf(String cpf);
+	List<User> queryByNameLike(String name);
+}

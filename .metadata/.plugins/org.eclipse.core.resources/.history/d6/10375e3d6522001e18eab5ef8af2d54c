@@ -1,0 +1,5 @@
+package com.ronaldo.userapi.service;
+
+public class UserService {
+
+}
