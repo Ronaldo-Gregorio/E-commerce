@@ -1,0 +1,14 @@
+package com.ronaldo.userapi.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ronaldo.userapi.model.User;
+
+@Repositoryu
+public interface UserRepository extends JpaRepository<User, Long> {
+	
+	User findByCpf(String cpf);
+	List<User> queryByNameLike(String name);
+}

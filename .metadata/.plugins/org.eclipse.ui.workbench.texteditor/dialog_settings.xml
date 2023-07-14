@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="import lombok.NoArgsConstructor;"/>
 		<list key="findhistory">
+			<item value="import lombok.NoArgsConstructor;"/>
 			<item value="@Setter"/>
 			<item value="import org.springframework.web.bind.annotation.ResponseStatus.*;"/>
 		</list>
